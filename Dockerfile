@@ -7,7 +7,7 @@ ENV PYTHONFAULTHANDLER=1 \
 
 RUN apk --no-cache add ffmpeg
 
-WORKDIR /telegram_openai_assistant
+WORKDIR /
 COPY . .
 RUN pip install -e . --no-cache-dir
 
