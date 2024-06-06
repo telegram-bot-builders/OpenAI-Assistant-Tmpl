@@ -11,4 +11,4 @@ WORKDIR /app
 COPY . .
 RUN pip install -e . --no-cache-dir
 
-CMD ["python", "bot/main.py"]
+CMD ["python", "telegram_openai_assistant/bot.py"]
